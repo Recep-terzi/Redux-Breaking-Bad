@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+nav {
+  background-color: #333;
+  display: flex;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li a:hover {
+  color: red;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
